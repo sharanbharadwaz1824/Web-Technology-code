@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Points Table</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: blanchedalmond;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 50%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        td {
+            background-color: white;
+        }
+
+        #win-col {
+            font-weight: bold;
+            background-color: rgb(188, 249, 188);
+        }
+
+        #loss-col {
+            background-color: rgb(248, 182, 182);
+        }
+
+        tfoot td {
+            font-weight: bold;
+        }
+
+        #a {
+            background-color: green;
+        }
+
+        #b {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Score Board</h1>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Played</th>
+                <th>Win</th>
+                <th>Losses</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="a">CSK</td>
+                <td id="a">20</td>
+                <td id="a">18</td>
+                <td id="a">2</td>
+            </tr>
+            <tr id="b">
+                <td>MI</td>
+                <td>20</td>
+                <td>15</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>RCB</td>
+                <td>20</td>
+                <td>17</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td id="b">SRH</td>
+                <td id="b">20</td>
+                <td id="b">14</td>
+                <td id="b">6</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>80</td>
+                <td>64</td>
+                <td>16</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
